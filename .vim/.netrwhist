@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/ruggero/.vim/ftdetect'
+let g:netrw_dirhist_2='/home/ruggero/duplicate'
+let g:netrw_dirhist_3='/home/ruggero/.vim/ftdetect'
+let g:netrw_dirhist_4='/home/ruggero/.vim/compiler'
+let g:netrw_dirhist_5='/home/ruggero/Documents/MecaLab'

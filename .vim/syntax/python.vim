@@ -2,7 +2,7 @@
 " Language:	Python
 " Maintainer:	Ruggero Valli
 " Last Change:	2016 10 September
-" Credits:	Ruggero Valli
+" Credits:	Ruggero Valli, Zvezdan Petkovic
 "  Zvezdan Petkovic <zpetkovic@acm.org>
 "		Neil Schemenauer <nas@python.ca>
 "		Dmitry Vasiliev
@@ -286,8 +286,8 @@ if version >= 508 || !exists("did_python_syn_inits")
   HiLink pythonTodo		Todo
   HiLink pythonString		String
   HiLink pythonRawString	String
-  HiLink pythonIdentifier Identifier
-  HiLink pythonParentheses Delimiter
+  HiLink pythonIdentifier	Identifier
+  HiLink pythonParentheses	Delimiter
   HiLink pythonEscape		Special
   if !exists("python_no_number_highlight")
     HiLink pythonNumber		Number

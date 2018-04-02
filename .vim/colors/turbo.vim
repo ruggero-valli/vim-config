@@ -6,11 +6,13 @@ hi clear
 let colors_name = "turbo"
 
 " Normal should come first
-hi Normal     cterm=NONE ctermbg=0 ctermfg=249 " Black LGrey
+hi Normal     cterm=NONE ctermbg=NONE ctermfg=249 " Black LGrey
 
 hi ErrorMsg   ctermfg=255 ctermbg=88    " White DRed
 hi CursorLine cterm=bold  ctermbg=235   " DGrey
 hi Search     ctermfg=186 ctermbg=22    " Yellow Green
+hi Folded     ctermfg=3   ctermbg=17    " Yellow DBlue
+hi FoldColumn ctermfg=3   ctermbg=17    " Yellow DBlue
 
 hi Visual     cterm=reverse
 hi IncSearch  cterm=reverse

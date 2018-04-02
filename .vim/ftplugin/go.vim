@@ -11,12 +11,10 @@ let b:did_ftplugin = 1
 
 let b:undo_ftplugin = "setl fo< com< cms<"
 
-setlocal formatoptions-=t
+" setlocal formatoptions-=t
 
 setlocal comments=s1:/*,mb:*,ex:*/,://
 setlocal commentstring=//\ %s
-
-setlocal noexpandtab
 
 compiler go
 

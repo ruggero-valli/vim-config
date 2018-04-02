@@ -54,23 +54,23 @@ if !exists("g:go_highlight_trailing_whitespace_error")
 endif
 
 if !exists("g:go_highlight_operators")
-  let g:go_highlight_operators = 0
+  let g:go_highlight_operators = 1
 endif
 
 if !exists("g:go_highlight_functions")
-  let g:go_highlight_functions = 0
+  let g:go_highlight_functions = 1
 endif
 
 if !exists("g:go_highlight_methods")
-  let g:go_highlight_methods = 0
+  let g:go_highlight_methods = 1
 endif
 
 if !exists("g:go_highlight_structs")
-  let g:go_highlight_structs = 0
+  let g:go_highlight_structs = 1
 endif
 
 if !exists("g:go_highlight_interfaces")
-  let g:go_highlight_interfaces = 0
+  let g:go_highlight_interfaces = 1
 endif
 
 if !exists("g:go_highlight_build_constraints")
